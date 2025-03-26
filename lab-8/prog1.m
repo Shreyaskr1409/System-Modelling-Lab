@@ -19,13 +19,13 @@ end
 
 figure;
 subplot(4,1,1);
-stem(1:length(h), h);
+plot(1:length(h), h);
 title("H");
 xlabel("Sample number");
 ylabel("Amplitude");
 
 subplot(4,1,2);
-stem(1:length(h_new), h_new);
+plot(1:length(h_new), h_new);
 title("H with noise");
 xlabel("Sample number");
 ylabel("Amplitude");
